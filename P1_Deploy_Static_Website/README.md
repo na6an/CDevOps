@@ -11,7 +11,7 @@ Screenshot of the website files uploaded to the S3 bucket.
 
 The S3 bucket configured to support static website hosting.  
   <img src="https://github.com/na6an/CDevOps/blob/master/P1_Deploy_Static_Website/img/bucket_hosting.PNG">
-Webhost address:
+Webhost address:  
 http://nathan-udacity-static-website.s3-website.us-east-2.amazonaws.com
 
 The S3 bucket has an IAM bucket policy that makes the bucket contents publicly accessible.  
