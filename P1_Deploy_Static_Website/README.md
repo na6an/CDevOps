@@ -24,5 +24,5 @@ CloudFront has been configured to retrieve and distribute website files.
   
 # Web Browser Access  
 The CloudFront endpoint URL:  
-[d1er9qy4ujpu4y.cloudfront.net](d1er9qy4ujpu4y.cloudfront.net)
+[d1er9qy4ujpu4y.cloudfront.net](https://d1er9qy4ujpu4y.cloudfront.net)
 
