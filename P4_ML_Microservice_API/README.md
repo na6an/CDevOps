@@ -49,25 +49,25 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ### Docker Configuration  
 #### Make Lint on Dockerfile
-  <img src="https://github.com/na6an/Microservice/blob/master/pic/make_lint.png">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P4_ML_Microservice_API/pic/make_lint.png">  
 
 #### run_docker.sh & make_prediction.sh
-  <img src="https://github.com/na6an/Microservice/blob/master/pic/run_docker.png">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P4_ML_Microservice_API/pic/run_docker.png">  
 
 #### upload_docker.sh
-  <img src="https://github.com/na6an/Microservice/blob/master/pic/upload_docker.png">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P4_ML_Microservice_API/pic/upload_docker.png">  
 Able to confirm docker image upload from docker hub  
-  <img src="https://github.com/na6an/Microservice/blob/master/pic/docker_hub.png">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P4_ML_Microservice_API/pic/docker_hub.png">  
   
 ### Kubernetes Configuration
 #### kubectl
-  <img src="https://github.com/na6an/Microservice/blob/master/pic/kubectl.png">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P4_ML_Microservice_API/pic/kubectl.png">  
   
 #### run_kubernetes.sh
-  <img src="https://github.com/na6an/Microservice/blob/master/pic/run_kub.png">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P4_ML_Microservice_API/pic/run_kub.png">  
   
 #### make_prediction.sh
-  <img src="https://github.com/na6an/Microservice/blob/master/pic/make_pred.png">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P4_ML_Microservice_API/pic/make_pred.png">  
 
 ### CircleCI Build Result
-  <img src="https://github.com/na6an/Microservice/blob/master/pic/circleci_build.png">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P4_ML_Microservice_API/pic/circleci_build.png">  
