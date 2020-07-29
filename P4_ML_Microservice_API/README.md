@@ -1,5 +1,11 @@
 [![CircleCI](https://circleci.com/gh/na6an/Microservice.svg?style=svg)](https://circleci.com/gh/na6an/Microservice)
 
+
+Note
+This page is for submission report only because I want to keep all projects of each nanodegree in a single repo.
+All code work can be found in https://github.com/na6an/Microservice so it can run it's own in CircleCI.
+
+
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
