@@ -2,7 +2,7 @@
 
 
 Note
-This page is for submission report only because I want to keep all projects of each nanodegree in a single repo.
+This page is for submission report only because I want to keep all projects of each nanodegree in a single repo.  
 All code work can be found in https://github.com/na6an/Microservice so it can run it's own in CircleCI.
 
 
