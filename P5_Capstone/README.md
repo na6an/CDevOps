@@ -20,7 +20,7 @@ For this project submission, however, the CV app is not the essential part of CI
 Thus, the CV app will be a functional basecode to demonstrate a proof of concept.  
 
 Here are some examples of what this CV app does:  
-Original input images:
+Original input images:  
   <img src="https://github.com/na6an/CDevOps_Capstone/blob/master/img/IMG_20200811_121501.jpg" alt="alt text" width="480" height="360">
   <img src="https://github.com/na6an/CDevOps_Capstone/blob/master/img/2020_07_23_10_08_55_color_place.png" alt="alt text" width="480" height="360">    
 
@@ -80,10 +80,10 @@ You can use `add_jenkins.sh` command in this case.
 
 
 #### Linter as part of a Continuous Integration step  
-  <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/linter.png" alt="alt text" width="480" height="540">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/linter.png" alt="alt text" width="600" height="540">  
 
 #### Build docker container in a pipeline  
-  <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/docker_build.png" alt="alt text" width="480" height="540">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/docker_build.png" alt="alt text" width="600" height="540">  
 
 
 ### Deployment
@@ -105,12 +105,12 @@ Add credential info in the `secret.sh` file inside of EC2, `source secret.sh`, t
 #### Docker container deployed to a kubernetes cluster
 A kubernetes cluster is created and the deployment was made using kubectl command.  
 
-  <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/deploy_success.png" alt="alt text" width="480" height="360">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/deploy_success.png" alt="alt text" width="600" height="360">  
 
 
 #### Blue/Green Deployment
 
-Blue Deployment (Dev/master branch)
+Blue Deployment (Dev/master branch)  
   <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/dev_branch.png" alt="alt text" width="480" height="540">  
 
 Green Deployment (Deploy branch)
@@ -119,7 +119,7 @@ Green Deployment (Deploy branch)
 #### Kubernetes Troubleshoot
 If the deployment doesn't get ready and you see the status of the pods "CrashLoopBackOff",  
 
-  <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/crash_error.png" alt="alt text" width="480" height="360">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/crash_error.png" alt="alt text" width="600" height="360">  
 
 it's likely either:  
 1. the secret was not set correctly, or
