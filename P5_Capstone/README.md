@@ -110,7 +110,7 @@ A kubernetes cluster is created and the deployment was made using kubectl comman
 Blue Deployment (Dev/master branch)  
   <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/dev_branch.png" alt="alt text" width="480" height="540">  
 
-Green Deployment (Deploy branch)
+Green Deployment (Deploy branch)  
   <img src="https://github.com/na6an/CDevOps/blob/master/P5_Capstone/img/deploy_branch.png" alt="alt text" width="480" height="540">  
 
 #### Kubernetes Troubleshoot
