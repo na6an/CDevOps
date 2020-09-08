@@ -2,7 +2,7 @@
 
 Deploy infrastructure/web server using CloudFormation
 
-  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/diagram.PNG" alt="alt text">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/img/diagram.png" alt="alt text">  
 * The diagram is created in ppt with the default aws template provided here: https://aws.amazon.com/architecture/icons/
 
 ### The Basics  
