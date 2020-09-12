@@ -17,13 +17,13 @@ Recources contains all LoadBalancer, Launch Configuration, AutoScaling, Security
 `Value: !GetAtt WebAppLB.DNSName` dispalys DNS name in the output
 
 #### Working Test
-  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/stacks.PNG" alt="alt text">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/img/stacks.PNG" alt="alt text">  
 
-  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/udagram.PNG" alt="alt text">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/img/udagram.PNG" alt="alt text">  
 
 ### Load Balancer  
 #### Target Group, Health Check and Listner
-  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/target_health.PNG" alt="alt text">  
+  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/img/target_health.PNG" alt="alt text">  
 
 ### Auto-Scaling  
 #### Subnets  
