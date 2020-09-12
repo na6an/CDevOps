@@ -6,27 +6,35 @@ Deploy infrastructure/web server using CloudFormation
 * The diagram is created in ppt with the default aws template provided here: https://aws.amazon.com/architecture/icons/
 
 ### The Basics  
-# Parameters  
+#### Parameters  
 Here it has parameters for VPC, 2 public subnets and 2 private subnets.  
 All parameter values are in `parameter.json` for easier reference instead of hard-coding.
 
-# Resources  
+#### Resources  
 Recources contains all LoadBalancer, Launch Configuration, AutoScaling, Security Groups, Listener and Target Group.
 
-# Outputs  
-  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/LB.PNG" alt="alt text">  
-As you see, the stack is active in the load balancers page although it's not accessible through DNS address because it's connected to private subnets.
+#### Outputs  
+`Value: !GetAtt WebAppLB.DNSName` dispalys DNS name in the output
 
-# 
+#### Working Test
+  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/udagram.PNG" alt="alt text">  
 
 
+### Load Balancer  
+#### Target Group, Health Check and Listner
+  <img src="https://github.com/na6an/CDevOps/blob/master/P2_Deploy_WebApp/target_health.PNG" alt="alt text">  
 
-[d1er9qy4ujpu4y.cloudfront.net](https://d1er9qy4ujpu4y.cloudfront.net)
+### Auto-Scaling  
+#### Subnets  
+Auto-scaling is using PRIV-NET, but this can be switched to PUB-Net for testing purpose.
 
-The S3 bucket in the AWS Management console.  
-  <img src="https://github.com/na6an/CDevOps/blob/master/P1_Deploy_Static_Website/img/bucket_creation.PNG" alt="alt text">  
-  
-# Web Browser Access  
-The CloudFront endpoint URL:  
-[d1er9qy4ujpu4y.cloudfront.net](https://d1er9qy4ujpu4y.cloudfront.net)
+#### Machine Spec (EC2 instance)  
+EC2 instance is t3.small with 10GB ssd, but t2.micro is also available to be eligible for free-tier and save money.  
+
+#### SSH Key 
+`cloudformation-key` should be created as a key. Otherwise, should be disabled by commenting out or delete.  
+
+### Troubleshoot  
+In case UserData from LaunchConfiguration didn't apply, aws credential has to be configured for EC2 instances. For the testing purpose, you can also manually execute the UserData code and/or upload udacity.zip and see target group turns to healthy condition.  
+Also, make sure to select correct ami image id (especially if you're in different AZ).
 
