@@ -33,7 +33,7 @@ Auto-scaling is using PRIV-NET, but this can be switched to PUB-Net for testing 
 EC2 instance is t3.small with 10GB ssd, but t2.micro is also available to be eligible for free-tier and save money.  
 
 #### SSH Key 
-`cloudformation-key` should be created as a key. Otherwise, should be disabled by commenting out or delete.  
+SSH key is commented out, but `cloudformation-key` should be created as a key in case of use.  
 
 ### Troubleshoot  
 In case UserData from LaunchConfiguration didn't apply, aws credential has to be configured for EC2 instances. For the testing purpose, you can also manually execute the UserData code and/or upload udacity.zip and see target group turns to healthy condition.  
