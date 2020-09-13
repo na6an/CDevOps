@@ -109,7 +109,7 @@ Resources:
           # systemctl enable httpd
 
       ImageId: ami-0ba60995c1589da9d #for Ubuntu18.04. ami-0841edc20334f9287 for AmazonLinux (but apt not usable)
-      KeyName: cloudformation-key #Comment out or delete when production
+      # KeyName: cloudformation-key #Comment out or delete when production
       IamInstanceProfile: !Ref IAMProfile
       SecurityGroups:
         - Ref: WebServerSecGroup
@@ -122,9 +122,9 @@ Resources:
     Type: AWS::AutoScaling::AutoScalingGroup
     Properties:
       VPCZoneIdentifier:
-        - Fn::ImportValue: !Sub "${EnvironmentName}-PUB-NETS" 
+        # - Fn::ImportValue: !Sub "${EnvironmentName}-PUB-NETS" 
         # Launching in Public Subnets for demo purpose. Switch to Private Subnets when production.
-        # - Fn::ImportValue: !Sub "${EnvironmentName}-PRIV-NETS"
+        - Fn::ImportValue: !Sub "${EnvironmentName}-PRIV-NETS"
       LaunchConfigurationName:
         Ref: WebAppLaunchConfig
       MinSize: "2"
